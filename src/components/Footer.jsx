@@ -124,10 +124,10 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-blue-400 mt-1" />
                 <div>
-                  <p className="font-medium">Global Headquarters</p>
+                  <p className="font-medium">Address</p>
                   <p className="text-gray-300 text-sm">
-                    123 Trade Center Plaza, Suite 500<br />
-                    Singapore 018989
+                    15/A, Shridharnagar, Sangli (MH)<br />
+                    India - 416416
                   </p>
                 </div>
               </div>
@@ -144,7 +144,7 @@ const Footer = () => {
                 <Mail className="w-5 h-5 text-blue-400" />
                 <div>
                   <p className="font-medium">Email Us</p>
-                  <p className="text-gray-300">info@axoraglobal.com</p>
+                  <p className="text-gray-300">pranil@axoraglobal.com</p>
                 </div>
               </div>
               
