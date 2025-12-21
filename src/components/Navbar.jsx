@@ -118,7 +118,7 @@ const Navbar = () => {
               >
                 <div className="bg-white p-2 rounded-lg">
                   <img 
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Echo_global_icon.svg/2048px-Echo_global_icon.svg.png" 
+                    src="public\logo.jpg" 
                     alt="Axora Global Logo"
                     className="w-10 h-10"
                   />
