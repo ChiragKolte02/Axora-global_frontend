@@ -5,16 +5,23 @@ export default function Hero() {
       className="relative min-h-screen flex items-center text-white overflow-hidden"
     >
       {/* Background Image with Overlay */}
-      <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-700/80 z-10"></div>
-        <img 
-          src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
-          alt="Global Trade Background"
-          className="w-full h-full object-cover"
-        />
-        {/* Animated background elements */}
-        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-blue-900/20 to-transparent"></div>
-      </div>
+    <div className="absolute inset-0 z-0">
+  
+  {/* Background Image */}
+  <img 
+    src="/axora-global.png"
+    alt="Global Trade Background"
+    className="absolute inset-0 w-full h-full object-cover z-0"
+  />
+
+  {/* Overlay */}
+  <div className="absolute inset-0 bg-gradient-to-r from-blue-900/50 to-blue-400/40 z-10"></div>
+
+  {/* Soft Light Effect */}
+  <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-transparent z-20"></div>
+
+</div>
+
 
       {/* Content */}
       <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
